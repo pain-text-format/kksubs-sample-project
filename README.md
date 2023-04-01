@@ -1,4 +1,4 @@
-# `kksubs` Sample Project
+# `kksubs` Sample Projects
 
 This repo contains a sample "Hello World!" project to illustrate how to use `kksubs` to add subtitles, among other template projects you can experiment with to understand how the program works.
 

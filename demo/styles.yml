@@ -1,0 +1,89 @@
+# create (optional) default style.
+- style_id: default
+  text_data:
+    size: 60
+    color: white
+    stroke_size: 2
+    stroke_color: white
+  outline_data:
+    size: 10
+    color: [255, 0, 255]
+    blur: 3
+
+# define grid possibilities
+- style_id: grid11
+  box_data:
+    grid4: [1, 1]
+- style_id: grid12
+  box_data:
+    grid4: [1, 2]
+- style_id: grid13
+  box_data:
+    grid4: [1, 3]
+- style_id: grid21
+  box_data:
+    grid4: [2, 1]
+- style_id: grid22
+  box_data:
+    grid4: [2, 2]
+- style_id: grid23
+  box_data:
+    grid4: [2, 3]
+- style_id: grid31
+  box_data:
+    grid4: [3, 1]
+- style_id: grid32
+  box_data:
+    grid4: [3, 2]
+- style_id: grid33
+  box_data:
+    grid4: [3, 3]
+
+# CALL LOCAL FONTS
+
+- style_id: a
+  outline_data:
+    color: [255, 0, 0]
+
+- style_id: b
+  outline_data:
+    color: [0, 0, 255]
+
+- style_id: c
+  text_data:
+    color: [0, 0, 0]
+    stroke_color: [0, 0, 0]
+  outline_data:
+    color: [255, 0, 0]
+
+# INHERITANCE
+
+- style_id: a11(a,grid11)
+- style_id: a12(a,grid12)
+- style_id: a13(a,grid13)
+- style_id: a21(a,grid21)
+- style_id: a22(a,grid22)
+- style_id: a23(a,grid23)
+- style_id: a31(a,grid31)
+- style_id: a32(a,grid32)
+- style_id: a33(a,grid33)
+
+- style_id: b11(b,grid11)
+- style_id: b12(b,grid12)
+- style_id: b13(b,grid13)
+- style_id: b21(b,grid21)
+- style_id: b22(b,grid22)
+- style_id: b23(b,grid23)
+- style_id: b31(b,grid31)
+- style_id: b32(b,grid32)
+- style_id: b33(b,grid33)
+
+- style_id: c11(c,grid11)
+- style_id: c12(c,grid12)
+- style_id: c13(c,grid13)
+- style_id: c21(c,grid21)
+- style_id: c22(c,grid22)
+- style_id: c23(c,grid23)
+- style_id: c31(c,grid31)
+- style_id: c32(c,grid32)
+- style_id: c33(c,grid33)
