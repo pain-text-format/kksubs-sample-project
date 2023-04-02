@@ -1,21 +1,25 @@
-# refer to styles.yml for more information.
-
 image_id: 0.png
-content: Write some text here in default style.
+title: kksubs
+automated subtitling program
+
+subtitle: (made with kksubs)
 
 image_id: 1.png
+content: Write some text here in default style.
+
+image_id: 2.png
 a11: Top left text
 a31: Top right text
 b13: Bottom left text
 b33: Bottom right text
 c22: Center text
 
-image_id: 2.png
+image_id: 3.png
 box_data.align_h: left
 box_data.anchor: [-600, 0]
 a: Override alignment with local style labels.
 For example, this is some left-aligned text.
 
-image_id: 3.png
+image_id: 4.png
 text_data.font: demo\assets\font\Roboto\Roboto-ThinItalic.ttf
 a: Customize the font style using a local TTF file.

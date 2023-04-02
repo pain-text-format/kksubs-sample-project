@@ -1,6 +1,7 @@
 # create (optional) default style.
 - style_id: default
   text_data:
+    font: demo\assets\font\Roboto\Roboto-Thin.ttf
     size: 60
     color: white
     stroke_size: 2
@@ -58,32 +59,46 @@
 
 # INHERITANCE
 
-- style_id: a11(a,grid11)
-- style_id: a12(a,grid12)
-- style_id: a13(a,grid13)
-- style_id: a21(a,grid21)
-- style_id: a22(a,grid22)
-- style_id: a23(a,grid23)
-- style_id: a31(a,grid31)
-- style_id: a32(a,grid32)
-- style_id: a33(a,grid33)
+- style_id: a11(a, grid11)
+- style_id: a12(a, grid12)
+- style_id: a13(a, grid13)
+- style_id: a21(a, grid21)
+- style_id: a22(a, grid22)
+- style_id: a23(a, grid23)
+- style_id: a31(a, grid31)
+- style_id: a32(a, grid32)
+- style_id: a33(a, grid33)
 
-- style_id: b11(b,grid11)
-- style_id: b12(b,grid12)
-- style_id: b13(b,grid13)
-- style_id: b21(b,grid21)
-- style_id: b22(b,grid22)
-- style_id: b23(b,grid23)
-- style_id: b31(b,grid31)
-- style_id: b32(b,grid32)
-- style_id: b33(b,grid33)
+- style_id: b11(b, grid11)
+- style_id: b12(b, grid12)
+- style_id: b13(b, grid13)
+- style_id: b21(b, grid21)
+- style_id: b22(b, grid22)
+- style_id: b23(b, grid23)
+- style_id: b31(b, grid31)
+- style_id: b32(b, grid32)
+- style_id: b33(b, grid33)
 
-- style_id: c11(c,grid11)
-- style_id: c12(c,grid12)
-- style_id: c13(c,grid13)
-- style_id: c21(c,grid21)
-- style_id: c22(c,grid22)
-- style_id: c23(c,grid23)
-- style_id: c31(c,grid31)
-- style_id: c32(c,grid32)
-- style_id: c33(c,grid33)
+- style_id: c11(c, grid11)
+- style_id: c12(c, grid12)
+- style_id: c13(c, grid13)
+- style_id: c21(c, grid21)
+- style_id: c22(c, grid22)
+- style_id: c23(c, grid23)
+- style_id: c31(c, grid31)
+- style_id: c32(c, grid32)
+- style_id: c33(c, grid33)
+
+# title
+- style_id: title
+  text_data:
+    size: 100
+  outline_data:
+    size: 5
+
+- style_id: subtitle(title, grid23)
+  text_data:
+    size: 60
+  outline_data:
+    size: 0
+    blur: 0
