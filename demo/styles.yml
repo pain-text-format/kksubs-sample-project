@@ -1,7 +1,7 @@
 # create (optional) default style.
 - style_id: default
   text_data:
-    font: demo\assets\font\Roboto\Roboto-Thin.ttf
+    font: assets\font\Roboto\Roboto-Thin.ttf
     size: 60
     color: white
     stroke_size: 2
