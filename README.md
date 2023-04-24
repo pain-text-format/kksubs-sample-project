@@ -14,4 +14,4 @@ Run `kksubs-compose` to apply subtitles.
 ```
 Here `-p` is a project directory flag, it tells the program to add subtitles for the project located in the `hello-world` project directory.
 
-You can find the subtitled images in the `helloworld/output/` directory. You can also make changes to the drafts or `styles.yml` file to experiment with other options.
+You can find the subtitled images in the `helloworld/output/` directory. You can also make changes to the drafts or `styles.yml` file to experiment with other options. Expected result is shown in the `target` directory.
