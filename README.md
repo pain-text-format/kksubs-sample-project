@@ -10,7 +10,7 @@ pip install git+https://github.com/pain-text-format/kksubs
 ```
 Run `kksubs-compose` to apply subtitles.
 ```bash
-kksubs-compose -p hello-world
+kksubs -p hello-world compose
 ```
 Here `-p` is a project directory flag, it tells the program to add subtitles for the project located in the `hello-world` project directory.
 
