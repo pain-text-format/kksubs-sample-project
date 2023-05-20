@@ -1,0 +1,22 @@
+- style_id: default
+  text_data:
+    size: 50
+
+- style_id: chikarin
+  text_data:
+    color: white
+    stroke_color: black
+    stroke_size: 3
+  box_data:
+    align_h: left
+    align_v: bottom
+    grid10: [2, 8]
+    box_width: 60
+  styles:
+    - text_data:
+        text: "???:"
+        color: pink
+      box_data:
+        align_h: right
+        align_v: bottom
+        nudge: [-50, 0]
