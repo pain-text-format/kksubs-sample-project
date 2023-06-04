@@ -10,8 +10,8 @@ pip install git+https://github.com/pain-text-format/kksubs
 ```
 Run `kksubs-compose` to apply subtitles.
 ```bash
-kksubs -p hello-world compose
+kksubs -p hello-world compose --show
 ```
-Here `-p` is a project directory flag, it tells the program to add subtitles for the project located in the `hello-world` project directory.
+Here `-p` is a project directory flag, it tells the program to add subtitles for the project located in the `hello-world` project directory. `--show` opens the folder containing the subtitled images.
 
 You can find the subtitled images in the `helloworld/output/` directory. You can also make changes to the drafts or `styles.yml` file to experiment with other options. Expected result is shown in the `target` directory.
